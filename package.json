@@ -1,0 +1,22 @@
+{
+  "name": "test-camera",
+  "private": true,
+  "version": "0.0.1",
+  "description": "test-camera",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch"
+  },
+  "dependencies": {
+    "@capacitor/core": "^1.1.0",
+    "@ionic/core": "ˆ4.6.0",
+    "@ionic/pwa-elements": "^1.3.0",
+    "@stencil/core": "ˆ1.1.3"
+  }
+}
