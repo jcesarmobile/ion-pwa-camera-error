@@ -15,8 +15,8 @@
   },
   "dependencies": {
     "@capacitor/core": "^1.1.0",
-    "@ionic/core": "ˆ4.6.0",
+    "@ionic/core": "^4.6.0",
     "@ionic/pwa-elements": "^1.3.0",
-    "@stencil/core": "ˆ1.1.3"
+    "@stencil/core": "^1.1.3"
   }
 }
